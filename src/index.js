@@ -20,7 +20,7 @@ require("./socket.io")(socketio);
 
 morgan = require("morgan");
 
-app.set("port", process.env.PORT || 4000);
+app.set("port", 4000);
 
 app.use(
   fileUpload({
